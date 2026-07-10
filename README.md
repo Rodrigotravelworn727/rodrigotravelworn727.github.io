@@ -6,43 +6,80 @@
 <title>Roger Ujjal</title>
 
 <style>
-body{
+*{
     margin:0;
-    font-family:Arial, sans-serif;
-    background:#f5f5f5;
-    text-align:center;
-    color:#333;
+    padding:0;
+    box-sizing:border-box;
 }
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
 header{
     background:#0077cc;
     color:white;
-    padding:50px 20px;
+    text-align:center;
+    padding:60px 20px;
 }
-img{
-    width:170px;
-    height:170px;
-    border-radius:50%;
-    border:5px solid white;
-    margin-top:20px;
+
+header h1{
+    font-size:48px;
 }
-section{
-    max-width:700px;
+
+header p{
+    font-size:22px;
+    margin-top:10px;
+}
+
+.container{
+    max-width:900px;
     margin:auto;
-    padding:30px;
+    padding:40px 20px;
+    text-align:center;
 }
+
+.profile{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid #0077cc;
+    margin-bottom:25px;
+}
+
+h2{
+    color:#0077cc;
+    margin-bottom:15px;
+}
+
+p{
+    font-size:18px;
+}
+
 .button{
     display:inline-block;
     margin:10px;
-    padding:12px 24px;
+    padding:14px 30px;
     background:#0077cc;
     color:white;
     text-decoration:none;
-    border-radius:6px;
+    border-radius:8px;
+    font-size:18px;
 }
+
+.button:hover{
+    background:#005fa3;
+}
+
 footer{
     background:#222;
     color:white;
-    padding:20px;
+    text-align:center;
+    padding:25px;
     margin-top:40px;
 }
 </style>
@@ -56,29 +93,31 @@ footer{
 <p>Fitness • Gymnastics • Travel</p>
 </header>
 
-<section>
+<div class="container">
 
-<img src="https://via.placeholder.com/170" alt="Roger Ujjal">
+<img src="IMG_1669.jpeg" alt="Roger Ujjal" class="profile">
 
 <h2>About Me</h2>
 
 <p>
-Welcome to my personal website.
-My name is <strong>Roger Ujjal</strong>.
+Hello! I'm <strong>Roger Ujjal</strong>.
 I enjoy fitness, gymnastics, travelling around the world, and learning new skills.
-This website shares my journey, achievements, and future goals.
+My goal is to inspire others to stay active, keep learning, and enjoy life.
+Welcome to my personal website!
 </p>
 
-<a class="button" href="https://www.facebook.com/" target="_blank">Facebook</a>
+<br><br>
 
-<a class="button" href="https://www.instagram.com/" target="_blank">Instagram</a>
+<h2>Connect With Me</h2>
 
-</section>
+<a class="button" href="https://facebook.com" target="_blank">Facebook</a>
+
+<a class="button" href="https://instagram.com" target="_blank">Instagram</a>
+
+</div>
 
 <footer>
-
-<p>© 2026 Roger Ujjal</p>
-
+© 2026 Roger Ujjal. All Rights Reserved.
 </footer>
 
 </body>
