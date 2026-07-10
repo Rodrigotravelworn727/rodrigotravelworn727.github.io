@@ -6,80 +6,43 @@
 <title>Roger Ujjal</title>
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
 body{
+    margin:0;
     font-family:Arial, sans-serif;
-    background:#f4f7fb;
+    background:#f5f5f5;
+    text-align:center;
     color:#333;
-    line-height:1.6;
 }
-
 header{
     background:#0077cc;
     color:white;
-    text-align:center;
-    padding:60px 20px;
+    padding:50px 20px;
 }
-
-header h1{
-    font-size:48px;
-}
-
-header p{
-    font-size:22px;
-    margin-top:10px;
-}
-
-.container{
-    max-width:900px;
-    margin:auto;
-    padding:40px 20px;
-    text-align:center;
-}
-
-.profile{
-    width:220px;
-    height:220px;
+img{
+    width:170px;
+    height:170px;
     border-radius:50%;
-    object-fit:cover;
-    border:6px solid #0077cc;
-    margin-bottom:25px;
+    border:5px solid white;
+    margin-top:20px;
 }
-
-h2{
-    color:#0077cc;
-    margin-bottom:15px;
+section{
+    max-width:700px;
+    margin:auto;
+    padding:30px;
 }
-
-p{
-    font-size:18px;
-}
-
 .button{
     display:inline-block;
     margin:10px;
-    padding:14px 30px;
+    padding:12px 24px;
     background:#0077cc;
     color:white;
     text-decoration:none;
-    border-radius:8px;
-    font-size:18px;
+    border-radius:6px;
 }
-
-.button:hover{
-    background:#005fa3;
-}
-
 footer{
     background:#222;
     color:white;
-    text-align:center;
-    padding:25px;
+    padding:20px;
     margin-top:40px;
 }
 </style>
@@ -93,31 +56,29 @@ footer{
 <p>Fitness • Gymnastics • Travel</p>
 </header>
 
-<div class="container">
+<section>
 
-<img src="IMG_1669.jpeg" alt="Roger Ujjal" class="profile">
+<img src="https://via.placeholder.com/170" alt="Roger Ujjal">
 
 <h2>About Me</h2>
 
 <p>
-Hello! I'm <strong>Roger Ujjal</strong>.
+Welcome to my personal website.
+My name is <strong>Roger Ujjal</strong>.
 I enjoy fitness, gymnastics, travelling around the world, and learning new skills.
-My goal is to inspire others to stay active, keep learning, and enjoy life.
-Welcome to my personal website!
+This website shares my journey, achievements, and future goals.
 </p>
 
-<br><br>
+<a class="button" href="https://www.facebook.com/" target="_blank">Facebook</a>
 
-<h2>Connect With Me</h2>
+<a class="button" href="https://www.instagram.com/" target="_blank">Instagram</a>
 
-<a class="button" href="https://facebook.com" target="_blank">Facebook</a>
-
-<a class="button" href="https://instagram.com" target="_blank">Instagram</a>
-
-</div>
+</section>
 
 <footer>
-© 2026 Roger Ujjal. All Rights Reserved.
+
+<p>© 2026 Roger Ujjal</p>
+
 </footer>
 
 </body>
