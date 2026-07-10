@@ -58,7 +58,7 @@ footer{
 
 <section>
 
-<img src="https://via.placeholder.com/170" alt="Roger Ujjal">
+<img src="IMG_1669.jpeg" alt="Roger Ujjal">
 
 <h2>About Me</h2>
 
